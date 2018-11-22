@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader should render 1`] = `
+<Component
+  animationType="none"
+  hardwareAccelerated={false}
+  onRequestClose={[Function]}
+  transparent={true}
+  visible={true}
+>
+  <Styled(Component)>
+    <Styled(Component)>
+      <Component
+        animating={true}
+      />
+    </Styled(Component)>
+  </Styled(Component)>
+</Component>
+`;

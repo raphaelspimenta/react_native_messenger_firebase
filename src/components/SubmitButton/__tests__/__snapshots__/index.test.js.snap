@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Component snapshot  1`] = `
+<Styled(Button)
+  onPress={[Function]}
+  title="Just a button"
+/>
+`;

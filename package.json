@@ -1,0 +1,79 @@
+{
+  "name": "react_native_messenger_firebase",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios --simulator='iPhone 7'",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "storybook": "storybook start -p 7007",
+    "prestorybook": "rnstl"
+  },
+  "dependencies": {
+    "@firebase/app-types": "^0.3.2",
+    "base-64": "^0.1.0",
+    "firebase": "^5.3.0",
+    "lodash": "^4.17.10",
+    "lottie-react-native": "^2.5.9",
+    "prop-types": "^15.6.2",
+    "react": "16.4.1",
+    "react-dom": "^16.5.0",
+    "react-native": "0.56.0",
+    "react-native-flash-message": "^0.1.10",
+    "react-native-tab-view": "^1.0.2",
+    "react-native-textinput-effects": "^0.4.2",
+    "react-native-vector-icons": "^4.6.0",
+    "react-navigation": "^2.6.2",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-form": "^7.4.2",
+    "redux-saga": "^0.16.0",
+    "styled-components": "^3.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "7.0.0-beta.54",
+    "@babel/node": "7.0.0-beta.54",
+    "@babel/preset-env": "7.0.0-beta.54",
+    "@storybook/addon-actions": "^3.4.11",
+    "@storybook/addon-links": "^3.4.11",
+    "@storybook/addons": "^3.4.11",
+    "@storybook/react-native": "^3.4.11",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^8.2.6",
+    "babel-jest": "23.4.0",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-preset-react-native": "5.0.2",
+    "babel-runtime": "^6.26.0",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.4",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-import-resolver-babel-module": "^4.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.0",
+    "eslint-plugin-react": "^7.10.0",
+    "eslint-plugin-react-native": "^3.2.1",
+    "jest": "23.4.0",
+    "nodemon": "^1.18.2",
+    "react-native-storybook-loader": "^1.8.0",
+    "react-test-renderer": "16.4.1",
+    "redux-devtools-extension": "^2.13.5"
+  },
+  "config": {
+    "react-native-storybook-loader": {
+      "searchDir": [
+        "./storybook/stories",
+        "./src/components"
+      ],
+      "pattern": "**/*.stories.js",
+      "outputFile": "./storybook/storyLoader.js"
+    }
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
